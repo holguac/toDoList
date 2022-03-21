@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: todo;
+    src: url(./fonts/LeagueSpartan-Thin.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* { 
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    background-color: aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    background-color: #BFECCC;
+    font-family: todo;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* .toDo-list {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    background-color: #B6DABB;
+    padding: 20px; */
+
+.app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+
+button {
+
+    background-color: transparent;
+    /* box-shadow: none; */
+    border: none;
+    padding: 20px;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+button:hover {
+    font-weight: bold;
+    background-color: #B6DABB;
 }
+
+
+input {
+    background-color: transparent;
+    border: #B6DABB;
+    font-size: 20px;
+    font-style: italic;
+    align-self: center;
+    padding: 20px;
+}
+
+toDo-item-text {
+    padding: 20px;
+}
+
+/* h2 {
+    font-size: 100px;
+    align-self: center;
+} */
+
+/* .app-content { */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap;
+    width: 100%;
+    justify-content: center; */
+    /* align-items: flex-start; */
+    /* padding: 100px; */
+    /* height: 500px; */
+
+/* }  */
+
+/* .form {
+    display: flex;
+    justify-content: center;
+} */
+
+/* .toDo-bar {
+    display: flex;
+    justify-self: left;
+} */
+/*.form {
+    width: 40%;
+    padding: 20px 20px;
+    margin: 0 20px;
+
+}
+
+
+
+button {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+
+    
+}
+
+button:hover {
+    font-weight: bold;
+    background-color: #B6DABB;
+}
+
+input {
+    background-color: transparent;
+    border: #B6DABB;
+    font-size: 20px;
+    font-style: italic;
+    align-self: center;
+} 
+ */

@@ -1,0 +1,85 @@
+@font-face {
+    font-family: todo;
+    src: url(./fonts/LeagueSpartan-Thin.ttf);
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+body {
+    background-color: #BFECCC 0%, #BFECCC 25%, BFECCC  ;
+    font-family: todo;
+}
+
+h2 {
+    font-size: 100px;
+    align-self: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50%;
+    /* padding: 100px; */
+    height: 500px;
+    background-color: #BFECCC;
+
+}
+
+.form {
+    width: 40%;
+    padding: 20px 20px;
+    margin: 0 20px;
+
+}
+
+.toDo-list {
+    width: 50%;
+    height: 500px;
+    background-color: #B6DABB;
+    padding: 20px;
+}
+
+button {
+    background-color: transparent;
+    /* box-shadow: none; */
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+
+    
+}
+
+button:hover {
+    font-weight: bold;
+    background-color: #B6DABB;
+}
+
+input {
+    background-color: transparent;
+    border: #B6DABB;
+    font-size: 20px;
+    font-style: italic;
+    align-self: center;
+}
+
+/* input: {
+    border: #B6DABB;
+} */
