@@ -21,20 +21,19 @@ body {
     width: 50%;
     height: 500px;
     background-color: #B6DABB;
-    padding: 20px; */
+    padding: 20px;
+} */
 
 .app {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    justify-content: left;
+    /* align-items: center; */
+    text-align: center;
 }
 
-
 button {
-
     background-color: transparent;
     /* box-shadow: none; */
     border: none;
@@ -42,8 +41,7 @@ button {
     border-radius: 12px;
     padding-left: 20px;
     padding-right: 20px;
-    align-content: center;
-    
+    /* align-content: center;  */
 }
 
 
@@ -58,18 +56,19 @@ input {
     border: #B6DABB;
     font-size: 20px;
     font-style: italic;
-    align-self: center;
+    align-content: center;
     padding: 20px;
 }
 
-toDo-item-text {
+/* toDo-item-text {
     padding: 20px;
-}
-
-/* h2 {
-    font-size: 100px;
-    align-self: center;
 } */
+
+h2 {
+    font-size: 80px;
+    align-self: center;
+    padding-top: 20px;
+}
 
 /* .app-content { */
     /* display: flex; */

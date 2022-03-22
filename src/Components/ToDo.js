@@ -1,8 +1,6 @@
 
    
 import React from "react";
-import { TiTickOutline } from "react-icons/ti";
-import { ImCross } from "react-icons/im";
 import { useState } from "react";
 
 
